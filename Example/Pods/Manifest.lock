@@ -1,0 +1,16 @@
+PODS:
+  - SubComponentC (0.1.0)
+
+DEPENDENCIES:
+  - SubComponentC (from `../`)
+
+EXTERNAL SOURCES:
+  SubComponentC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SubComponentC: b4876b1d93d8e76f093dc017b935634a80b35fd7
+
+PODFILE CHECKSUM: a66c6e2842f45e4e049feacac5a2c621684ed7b1
+
+COCOAPODS: 1.7.0.rc.1

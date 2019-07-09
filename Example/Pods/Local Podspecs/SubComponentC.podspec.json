@@ -1,0 +1,22 @@
+{
+  "name": "SubComponentC",
+  "version": "0.1.0",
+  "summary": "A short description of SubComponentC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sysuleiw/SubComponentC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sysuleiw": "sysuleiw@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sysuleiw/SubComponentC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SubComponentC/Classes/**/*"
+}
