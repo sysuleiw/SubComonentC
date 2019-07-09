@@ -11,6 +11,7 @@
 #endif
 
 #import "SubComponentC.h"
+#import "SubComponentC2.h"
 
 FOUNDATION_EXPORT double SubComponentCVersionNumber;
 FOUNDATION_EXPORT const unsigned char SubComponentCVersionString[];

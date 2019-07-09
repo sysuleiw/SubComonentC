@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sysuleiw;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = NW94V2XK7K;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = E1DE7BD1ED40AA11A8644135 /* Pods-SubComponentC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW94V2XK7K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubComponentC/SubComponentC-Prefix.pch";
 				INFOPLIST_FILE = "SubComponentC/SubComponentC-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 757DFFA68B191952D4B821AC /* Pods-SubComponentC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW94V2XK7K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SubComponentC/SubComponentC-Prefix.pch";
 				INFOPLIST_FILE = "SubComponentC/SubComponentC-Info.plist";
