@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39B388FE777AEA5AE0AA6E2F /* Pods_SubComponentC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93018CB82C26C85607D7946 /* Pods_SubComponentC_Tests.framework */; };
+		20AEE5BE546779F7B5D19FD9 /* libPods-SubComponentC_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FF9F74A9DC3341F24D238C /* libPods-SubComponentC_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7A8ED7B5608A798FA7A2F6E6 /* Pods_SubComponentC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079C5BB19CFBAB1A71D28593 /* Pods_SubComponentC_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B5E8D59BED4C6FC02DEE2111 /* libPods-SubComponentC_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA9A88F4F7BCDF85594F149 /* libPods-SubComponentC_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079C5BB19CFBAB1A71D28593 /* Pods_SubComponentC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubComponentC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FAF705616178B1D0B56F176 /* Pods-SubComponentC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubComponentC_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SubComponentC_Tests/Pods-SubComponentC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA9A88F4F7BCDF85594F149 /* libPods-SubComponentC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubComponentC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SubComponentC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubComponentC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757DFFA68B191952D4B821AC /* Pods-SubComponentC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubComponentC_Example.release.xcconfig"; path = "Target Support Files/Pods-SubComponentC_Example/Pods-SubComponentC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C93018CB82C26C85607D7946 /* Pods_SubComponentC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubComponentC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FF9F74A9DC3341F24D238C /* libPods-SubComponentC_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SubComponentC_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E9BC53982C5FD46D44BF39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E1DE7BD1ED40AA11A8644135 /* Pods-SubComponentC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubComponentC_Example.debug.xcconfig"; path = "Target Support Files/Pods-SubComponentC_Example/Pods-SubComponentC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EBE64C4451895B238A5E6234 /* SubComponentC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SubComponentC.podspec; path = ../SubComponentC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				7A8ED7B5608A798FA7A2F6E6 /* Pods_SubComponentC_Example.framework in Frameworks */,
+				20AEE5BE546779F7B5D19FD9 /* libPods-SubComponentC_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				39B388FE777AEA5AE0AA6E2F /* Pods_SubComponentC_Tests.framework in Frameworks */,
+				B5E8D59BED4C6FC02DEE2111 /* libPods-SubComponentC_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				079C5BB19CFBAB1A71D28593 /* Pods_SubComponentC_Example.framework */,
-				C93018CB82C26C85607D7946 /* Pods_SubComponentC_Tests.framework */,
+				91FF9F74A9DC3341F24D238C /* libPods-SubComponentC_Example.a */,
+				3EA9A88F4F7BCDF85594F149 /* libPods-SubComponentC_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				9DE8F78BF9931AFF4C191064 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9DE8F78BF9931AFF4C191064 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubComponentC_Example/Pods-SubComponentC_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SubComponentC/SubComponentC.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SubComponentC.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubComponentC_Example/Pods-SubComponentC_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DF81E846ED66A3A484B8A4F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

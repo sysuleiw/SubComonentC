@@ -9,13 +9,18 @@
 #import "SCViewController.h"
 #import <SubComponentC/SubComponentC.h>
 #import <SubComponentC/SubComponentC2.h>
+#import <MGJRouter/MGJRouter.h>
+#import <SubComponentC/SubComponentManager.h>
 @interface SCViewController ()
 
 @property (nonatomic, strong) UIButton *btn;
 @end
 
 @implementation SCViewController
-
++ (void)load
+{
+    NSLog(@"44444444");
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -43,7 +48,8 @@
 
 - (void)btnAction
 {
-    SubComponentC2 *vc = [SubComponentC2 new];
-    [self presentViewController:vc animated:YES completion:nil];
+//    [self presentViewController:[SubComponentC2 new] animated:YES completion:nil];
+    [MGJRouter openURL:@"gfloan://subcomponentc" withUserInfo:@{@"presentvc":self} completion:^(id result) {
+    }];
 }
 @end

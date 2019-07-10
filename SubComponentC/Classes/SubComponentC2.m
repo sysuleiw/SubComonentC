@@ -14,13 +14,17 @@
 
 @implementation SubComponentC2
 
++ (void)load
+{
+    NSLog(@"2222211111111");
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.label = [UILabel new];
     self.label.frame = UIScreen.mainScreen.bounds;
     self.label.backgroundColor = [UIColor whiteColor];
-    self.label.text = @"我是子模块C2";
+    self.label.text = @"我是子模块C2....";
     [self.view addSubview:self.label];
 }
 

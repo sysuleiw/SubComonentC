@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90812B0CB6DF50EA2ACB9A80252BE28B"
-               BuildableName = "SubComponentC.framework"
+               BuildableName = "libSubComponentC.a"
                BlueprintName = "SubComponentC"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90812B0CB6DF50EA2ACB9A80252BE28B"
-            BuildableName = "SubComponentC.framework"
+            BuildableName = "libSubComponentC.a"
             BlueprintName = "SubComponentC"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90812B0CB6DF50EA2ACB9A80252BE28B"
-            BuildableName = "SubComponentC.framework"
+            BuildableName = "libSubComponentC.a"
             BlueprintName = "SubComponentC"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

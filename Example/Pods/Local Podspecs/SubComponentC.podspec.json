@@ -1,9 +1,7 @@
 {
   "name": "SubComponentC",
   "version": "0.1.0",
-  "summary": "A short description of SubComponentC.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sysuleiw/SubComponentC",
+  "summary": "framework 作为子组件.",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,12 +9,21 @@
   "authors": {
     "sysuleiw": "sysuleiw@163.com"
   },
+  "homepage": "https://github.com/sysuleiw/SubComponentC",
+  "description": "TODO: Add long description of the pod here.",
   "source": {
     "git": "https://github.com/sysuleiw/SubComponentC.git",
     "tag": "0.1.0"
   },
+  "dependencies": {
+    "MGJRouter": [
+      "~>0.9.0"
+    ]
+  },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SubComponentC/Classes/**/*"
+  "source_files": [
+    "SubComponentC/Classes/*.{h,m}"
+  ]
 }

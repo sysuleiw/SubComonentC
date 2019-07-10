@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/sysuleiw/SubComponentC"
   s.description = "TODO: Add long description of the pod here."
   s.source = { :git => 'https://github.com/sysuleiw/SubComponentC.git', :tag => s.version.to_s }
-
+  s.dependency 'MGJRouter', '~>0.9.0'
   s.ios.deployment_target = '8.0'
   if ENV['IS_SOURCE']
     s.source_files = [
