@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
       'SubComponentC/Classes/*.{h,m}'
     ]
   else
-    s.ios.vendored_framework = 'SubComponentC-0.1.1/ios/SubComponentC.framework'
+    s.ios.vendored_framework = 'framework/SubComponentC.framework'
   end
 end
