@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/sysuleiw/SubComponentC.git', :tag => s.version.to_s }
   s.dependency 'MGJRouter', '~>0.9.0'
   s.ios.deployment_target = '8.0'
+  s.public_header_files = 'SubComponentC/Classes/*.h'
   if ENV['IS_SOURCE']
     s.source_files = [
       'SubComponentC/Classes/*.{h,m}'
