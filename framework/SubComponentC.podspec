@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SubComponentC"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
   s.summary = "framework \u{4f5c}\u{4e3a}\u{5b50}\u{7ec4}\u{4ef6}."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"sysuleiw"=>"sysuleiw@163.com"}
