@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "SubComponentC"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
   s.summary = "framework 作为子组件."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"sysuleiw"=>"sysuleiw@163.com"}
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
       'SubComponentC/Classes/*.{h,m}'
     ]
   else
-    s.ios.vendored_framework = 'SubComponentC-0.1.0/ios/SubComponentC.framework'
+    s.ios.vendored_framework = 'SubComponentC-0.1.1/ios/SubComponentC.framework'
   end
 end
