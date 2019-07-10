@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06C01B78BEAA957202E0880098CF6E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
-		0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */ = {isa = PBXBuildFile; fileRef = A95E90310BB0153309DFD23BF3689D04 /* SubComponentC2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */ = {isa = PBXBuildFile; fileRef = A95E90310BB0153309DFD23BF3689D04 /* SubComponentC2.h */; };
 		48B3D7ED90DFB8A95FDD380D7C589088 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DC1AFC6CF4414DC4E876133451D2CB9 /* Pods-SubComponentC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058BAFE6BBA6A31F2326B305168737F0 /* Pods-SubComponentC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E34F16649431A2A985BB13946F5698F /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */; };
@@ -16,10 +16,10 @@
 		7E09E6B5043D875FDEEA2BD4FEAA6F2F /* SubComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B64819B1F61B9BB4DD0F3E444A3EF72 /* SubComponentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84D3424EEDFAB4779C71050DE17D369D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
 		850ECF66F6CB0E47311D0E07E7555F51 /* Pods-SubComponentC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D2AAD3E19615C32C8B5C339D97739B /* Pods-SubComponentC_Tests-dummy.m */; };
-		90A383391C735313958FF50907184C2C /* SubComponentC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4F50460B2AAFC89CDC47350818F70C /* SubComponentC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90A383391C735313958FF50907184C2C /* SubComponentC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4F50460B2AAFC89CDC47350818F70C /* SubComponentC-umbrella.h */; };
 		9910D6DBE38B135F67D2C07BF6B9BF2D /* SubComponentC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0882A1439368E2AB059DC375CDADCC7C /* SubComponentC.m */; };
 		A62283EC0572B592E169E886DB36EE7F /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27C584890E75CF92C181C786CC504C /* SubComponentC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27C584890E75CF92C181C786CC504C /* SubComponentC.h */; };
 		A8EBD96022A9F7191ED1ED1DC85C41F7 /* SubComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88172C23B108F6A24CBA15117E439B7E /* SubComponentManager.m */; };
 		CBC98CB94A29C6C4B03BC18DD0F021B2 /* Pods-SubComponentC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68674E47C7FDC1BB187B7DA7D9586A3A /* Pods-SubComponentC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03BC0C21FD004096DB94533FDDEC02C /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */; };
@@ -70,7 +70,7 @@
 		09252A3B4F7B351FD35163A83B900799 /* Pods-SubComponentC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0A48320B871598678854330C37FA3CDF /* SubComponentC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SubComponentC.xcconfig; sourceTree = "<group>"; };
 		10BF85F84F7DE5FACBDF1578BE1BFA77 /* Pods-SubComponentC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SubComponentC_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		114F34916BF1C8E97E3BDECAB7E9D67D /* Pods_SubComponentC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentC_Example.framework; path = "Pods-SubComponentC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		114F34916BF1C8E97E3BDECAB7E9D67D /* Pods_SubComponentC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubComponentC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		279576AC8B0BD4CFE1DC0F01C92C56A8 /* Pods-SubComponentC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentC_Example-Info.plist"; sourceTree = "<group>"; };
 		2999BD1CF489FD38A921892E7971E85B /* Pods-SubComponentC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubComponentC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		36688595C94EA30ABD6CA7FD2744EDFD /* MGJRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGJRouter-Info.plist"; sourceTree = "<group>"; };
@@ -83,21 +83,21 @@
 		86E6EA1E29C571843644377238F5D526 /* SubComponentC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SubComponentC-prefix.pch"; sourceTree = "<group>"; };
 		88172C23B108F6A24CBA15117E439B7E /* SubComponentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubComponentManager.m; path = SubComponentC/Classes/SubComponentManager.m; sourceTree = "<group>"; };
 		8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-umbrella.h"; sourceTree = "<group>"; };
-		8F3C4A01D149E964058BBC57573E342B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F3C4A01D149E964058BBC57573E342B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8FC06A07CD034D9EBC2F6676322079C4 /* Pods-SubComponentC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		942F75A425909E4532EDDD18A92C6638 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		942F75A425909E4532EDDD18A92C6638 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		99D835C5490765D89C579081B86CD824 /* Pods-SubComponentC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubComponentC_Example.modulemap"; sourceTree = "<group>"; };
 		9B64819B1F61B9BB4DD0F3E444A3EF72 /* SubComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubComponentManager.h; path = SubComponentC/Classes/SubComponentManager.h; sourceTree = "<group>"; };
 		9C3774505588DCFF57D28341CEC9B3AB /* SubComponentC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SubComponentC-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A58B163F199875492EE16FD86D6CAED9 /* Pods-SubComponentC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A95E90310BB0153309DFD23BF3689D04 /* SubComponentC2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubComponentC2.h; path = SubComponentC/Classes/SubComponentC2.h; sourceTree = "<group>"; };
-		AC97E52E23B1C7170BEBA8BFE8ECC031 /* SubComponentC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SubComponentC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC97E52E23B1C7170BEBA8BFE8ECC031 /* SubComponentC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SubComponentC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1A9968815499106911EFC1E28C30B37 /* Pods-SubComponentC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SubComponentC_Tests.modulemap"; sourceTree = "<group>"; };
 		B5449F06FAD3908F0319C22E2973DCEC /* Pods-SubComponentC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SubComponentC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BADD633993E74B102D183570FA35FF78 /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
-		C18DF331990CD544FEC199D7D76D9971 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGJRouter.framework; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37A79D4409715F96484099F43943DBC /* Pods_SubComponentC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SubComponentC_Tests.framework; path = "Pods-SubComponentC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18DF331990CD544FEC199D7D76D9971 /* MGJRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGJRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37A79D4409715F96484099F43943DBC /* Pods_SubComponentC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubComponentC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48154DF945A83B36554E6AB4B62EBC5 /* Pods-SubComponentC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubComponentC_Example-dummy.m"; sourceTree = "<group>"; };
 		C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
 		C68FDBAAE1E6AB58A73E0AEB518781DD /* SubComponentC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SubComponentC-Info.plist"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
 		E54BA969510EDEF6A96FCD5CF3C96E8D /* SubComponentC2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SubComponentC2.m; path = SubComponentC/Classes/SubComponentC2.m; sourceTree = "<group>"; };
 		E5D2AAD3E19615C32C8B5C339D97739B /* Pods-SubComponentC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SubComponentC_Tests-dummy.m"; sourceTree = "<group>"; };
-		E64814BC2DFCB3D0ABD767C10CE374B8 /* SubComponentC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SubComponentC.framework; path = SubComponentC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64814BC2DFCB3D0ABD767C10CE374B8 /* SubComponentC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SubComponentC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAEE37D1C2620B1B15003B48C545526 /* Pods-SubComponentC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SubComponentC_Tests-Info.plist"; sourceTree = "<group>"; };
 		FD9826EC84993A714138D5D3F5E5781B /* Pods-SubComponentC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SubComponentC_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,7 +203,6 @@
 				741043923B58C1972007E53EEC791F1A /* MGJRouter.m */,
 				8BF7EADB2CB2A580C43173EDA381A377 /* Support Files */,
 			);
-			name = MGJRouter;
 			path = MGJRouter;
 			sourceTree = "<group>";
 		};
@@ -327,10 +326,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E09E6B5043D875FDEEA2BD4FEAA6F2F /* SubComponentManager.h in Headers */,
 				90A383391C735313958FF50907184C2C /* SubComponentC-umbrella.h in Headers */,
 				A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */,
 				0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */,
-				7E09E6B5043D875FDEEA2BD4FEAA6F2F /* SubComponentManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,8 +608,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
