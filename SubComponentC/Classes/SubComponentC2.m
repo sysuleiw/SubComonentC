@@ -21,7 +21,7 @@
     self.label = [UILabel new];
     self.label.frame = UIScreen.mainScreen.bounds;
     self.label.backgroundColor = [UIColor whiteColor];
-    self.label.text = @"我是子模块C2....";
+    self.label.text = @"我是子模块C2 0.1.2....";
     [self.view addSubview:self.label];
 }
 
