@@ -17,10 +17,7 @@
 @end
 
 @implementation SCViewController
-+ (void)load
-{
-    NSLog(@"44444444");
-}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

@@ -26,10 +26,7 @@ NSString *const MGJRouterParameterUserInfo = @"MGJRouterParameterUserInfo";
 @end
 
 @implementation MGJRouter
-+ (void)load
-{
-    NSLog(@"66666666");
-}
+
 + (instancetype)sharedInstance
 {
     static MGJRouter *instance = nil;

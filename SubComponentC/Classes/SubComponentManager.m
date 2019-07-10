@@ -12,7 +12,6 @@
 
 + (void)load
 {
-    NSLog(@"11111111");
     [MGJRouter registerURLPattern:PRESENT_VIEWCONTROLLER_URL toHandler:^(NSDictionary *routerParameters) {
         SubComponentC2 *vc = [SubComponentC2 new];
         UIViewController *vc2 = routerParameters[MGJRouterParameterUserInfo][@"presentvc"];

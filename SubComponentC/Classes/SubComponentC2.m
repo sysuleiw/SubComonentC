@@ -14,10 +14,7 @@
 
 @implementation SubComponentC2
 
-+ (void)load
-{
-    NSLog(@"2222211111111");
-}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
