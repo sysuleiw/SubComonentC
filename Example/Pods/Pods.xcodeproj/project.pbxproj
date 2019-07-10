@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06C01B78BEAA957202E0880098CF6E6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C4CB6FC3E1C60BB3FEC42BB52CB41A /* Foundation.framework */; };
-		0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */ = {isa = PBXBuildFile; fileRef = A95E90310BB0153309DFD23BF3689D04 /* SubComponentC2.h */; };
+		0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */ = {isa = PBXBuildFile; fileRef = A95E90310BB0153309DFD23BF3689D04 /* SubComponentC2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48B3D7ED90DFB8A95FDD380D7C589088 /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = C621F68D522021B0B0F285208EFA958E /* MGJRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DC1AFC6CF4414DC4E876133451D2CB9 /* Pods-SubComponentC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 058BAFE6BBA6A31F2326B305168737F0 /* Pods-SubComponentC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E34F16649431A2A985BB13946F5698F /* MGJRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719001469042E6C898B6512E0B9AE83E /* MGJRouter.framework */; };
@@ -19,7 +19,7 @@
 		90A383391C735313958FF50907184C2C /* SubComponentC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4F50460B2AAFC89CDC47350818F70C /* SubComponentC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9910D6DBE38B135F67D2C07BF6B9BF2D /* SubComponentC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0882A1439368E2AB059DC375CDADCC7C /* SubComponentC.m */; };
 		A62283EC0572B592E169E886DB36EE7F /* MGJRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F17FBF0801A03EA50AE070372C03AE5 /* MGJRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27C584890E75CF92C181C786CC504C /* SubComponentC.h */; };
+		A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A27C584890E75CF92C181C786CC504C /* SubComponentC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8EBD96022A9F7191ED1ED1DC85C41F7 /* SubComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88172C23B108F6A24CBA15117E439B7E /* SubComponentManager.m */; };
 		CBC98CB94A29C6C4B03BC18DD0F021B2 /* Pods-SubComponentC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68674E47C7FDC1BB187B7DA7D9586A3A /* Pods-SubComponentC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D03BC0C21FD004096DB94533FDDEC02C /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E35FC81DF646DEFE5ECE74920DA4C3B8 /* MGJRouter-dummy.m */; };
@@ -326,10 +326,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E09E6B5043D875FDEEA2BD4FEAA6F2F /* SubComponentManager.h in Headers */,
 				90A383391C735313958FF50907184C2C /* SubComponentC-umbrella.h in Headers */,
 				A652528A6044F3E291D79CE13AB8F4A4 /* SubComponentC.h in Headers */,
 				0B1CCEC31942626DD731917B85545FE0 /* SubComponentC2.h in Headers */,
+				7E09E6B5043D875FDEEA2BD4FEAA6F2F /* SubComponentManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

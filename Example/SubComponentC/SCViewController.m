@@ -7,10 +7,7 @@
 //
 
 #import "SCViewController.h"
-#import <SubComponentC/SubComponentC.h>
-#import <SubComponentC/SubComponentC2.h>
 #import <MGJRouter/MGJRouter.h>
-#import <SubComponentC/SubComponentManager.h>
 @interface SCViewController ()
 
 @property (nonatomic, strong) UIButton *btn;
